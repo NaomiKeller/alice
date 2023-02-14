@@ -1,0 +1,33 @@
+@keyframes expand {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
+	}
+}
+
+body {
+	overflow: hidden;
+}
+
+.to-from {
+	font-size: 27px;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	padding-top: 20px;
+}
+
+img {
+	margin: 0 auto;
+    display: block;
+	border-radius: 40px;
+    box-shadow: 0 0 8px $dark-purple;
+}
+
+.heart {
+	margin-left: 51px;
+	transform: scale(200%)
+}

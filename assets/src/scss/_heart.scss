@@ -1,0 +1,51 @@
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: #FE34A8;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 120px #FE34A8;
+    animation: heart 1s linear infinite;
+}
+@keyframes heart {
+    0% {
+        transform: rotate(-45deg) scale(1.07);
+    }
+    100% {
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100% {
+        transform: rotate(-45deg) scale(0.8);
+    }
+    
+}
+.heart::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #FE34A8;
+    top: -50%;
+    border-radius: 60px;
+    box-shadow: -10px 10px 120px #FE34A8;
+}
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #FE34A8;
+    right: -50%;
+    border-radius: 60px;
+    box-shadow: -10px 10px 120px #FE34A8;
+}
+.heart-scale {
+	transform: scale(5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    position: relative;
+    top: -300px;
+    left: -118px;
+}
