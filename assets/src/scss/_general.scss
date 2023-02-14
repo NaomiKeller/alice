@@ -23,8 +23,16 @@ body {
 img {
 	margin: 0 auto;
     display: block;
-	border-radius: 40px;
+	border-radius: 20px;
     box-shadow: 0 0 8px $dark-purple;
+	transform: scale(100%);
+	transition: ease-in-out .7s;
+	height: 300px;
+	width: 300px;
+	&.active {
+		transform: scaleX(5.2);
+		border-radius: 0;
+	}
 }
 
 .heart {

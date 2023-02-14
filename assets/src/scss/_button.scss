@@ -1,0 +1,16 @@
+.wide-miku {
+	background: #8de9eb;
+    box-shadow: 0 0 8px #8de9eb;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-family: Tahoma, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+	transition: ease-in-out .3s;
+	&:hover {
+		background: #d9feff;
+		box-shadow: 0 0 8px #d9feff;
+	}
+}

@@ -4,7 +4,7 @@ body {
 	font-family: 'Patrick Hand', serif;
 	margin: 0;
 	padding: 0;
-	background: linear-gradient($pink, $hot-pink);
+	background: linear-gradient($purple, $dark-purple);
 	height: 100vh;
 	color: white;
 	position: relative;
@@ -12,13 +12,14 @@ body {
 
 h1 {
 	font-size: 50px;
-	text-shadow: 0 0 8px $dark-purple;
+	text-shadow: 0 0 4px white;
 	margin: 0;
-    padding-top: 155px;
+    padding-top: 215px;
     padding-bottom: 20px;
     text-align: center;
 }
 
 p {
 	margin: 0;
+	text-shadow: 0 0 2px white;
 }

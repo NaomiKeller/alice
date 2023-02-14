@@ -30,4 +30,8 @@ $(function(){
 	timer = window.setInterval(function() {
 		enabled = true;
 	},50);
+
+	$('.wide-miku').on('click', () => {
+		$('#miku').toggleClass('active');
+	})
 });
